@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">Muxic_World</string>
+    <string name="vidurl">vidurl</string>
+    <string name="audurl">audurl</string>
 </resources>

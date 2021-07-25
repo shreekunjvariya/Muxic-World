@@ -24,4 +24,13 @@
         android:text="Pause Audio"
         android:textAllCaps="false" />
 
+    <!--Widget for exoplayer view-->
+    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
+        android:id="@+id/idExoPlayerView"
+        android:layout_width="500dp"
+        android:layout_height="250dp"
+        android:layout_marginTop="50dp"
+        android:focusable="true" />
+
+
 </RelativeLayout>
