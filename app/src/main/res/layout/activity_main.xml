@@ -7,30 +7,27 @@
 
     <!--Button for playing audio-->
     <Button
-        android:id="@+id/idBtnPlay"
+        android:id="@+id/btnPlay"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
-        android:text="Play Audio file"
-        android:textAllCaps="false" />
+        android:text="@string/play_audio_file" />
 
     <!--Button for pausing the audio-->
     <Button
-        android:id="@+id/idBtnPause"
+        android:id="@+id/btnPause"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/idBtnPlay"
+        android:layout_below="@id/btnPlay"
         android:layout_centerInParent="true"
-        android:text="Pause Audio"
-        android:textAllCaps="false" />
+        android:text="@string/pause_audio" />
 
-    <!--Widget for exoplayer view-->
-    <com.google.android.exoplayer2.ui.SimpleExoPlayerView
-        android:id="@+id/idExoPlayerView"
-        android:layout_width="500dp"
-        android:layout_height="250dp"
-        android:layout_marginTop="50dp"
-        android:focusable="true" />
-
+    <Button
+        android:id="@+id/playVideo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/btnPlay"
+        android:layout_centerInParent="true"
+        android:text="@string/play_video" />
 
 </RelativeLayout>

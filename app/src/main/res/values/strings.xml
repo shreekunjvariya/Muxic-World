@@ -2,4 +2,7 @@
     <string name="app_name">Muxic_World</string>
     <string name="vidurl">vidurl</string>
     <string name="audurl">audurl</string>
+    <string name="play_audio_file">Play Audio file</string>
+    <string name="pause_audio">Pause Audio</string>
+    <string name="play_video">Play Video</string>
 </resources>
